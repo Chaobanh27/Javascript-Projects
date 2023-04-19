@@ -1,0 +1,62 @@
+.btn-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#btn-text{
+    display: none;
+    position: fixed;
+    background-color: white;
+    right: 20px;
+    bottom: 63px;
+    border-radius: 20px;
+    padding: 10px;
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#btn-text::before{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    border: 8px solid transparent;
+    border-top: 8px solid white;
+}
+#btn {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+    display: none;
+    background: linear-gradient(#11998E ,#38EF7D);
+    border: none;
+    cursor: pointer;
+  }
+  .container {
+    text-align: center;
+    padding: 100px 0;
+    color: aliceblue;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(45deg,#2E3192 ,#1BFFFF);
+  }
+  .container.one{
+    background: linear-gradient(45deg,#D4145A ,#FBB03B);
+
+  }
+  .container.two{
+    background: linear-gradient(45deg,#614385 ,#516395);
+
+  }
+
+
+  
