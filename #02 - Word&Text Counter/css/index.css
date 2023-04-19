@@ -1,0 +1,19 @@
+body{
+    background-color: #001f3f;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: fit-content;
+    padding: 20px 50px;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 15px;
+}
+.container .output{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
