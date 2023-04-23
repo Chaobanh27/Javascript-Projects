@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: linear-gradient(45deg,#8E2DE2,#4A00E0);
+  display: flex;
+  align-items: center;
+}
+.container{
+  height: fit-content;
+  overflow: hidden;
+  background-color: white;
+
+}
+.container .row{
+  align-items: center;
+}
+.container .row .carousel-left{
+  padding: 0;
+}
+.container .row .form-right{
+  padding: 0px 20px;
+}
+.container .row .carousel-left .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.form-outline.success input{
+  border-color: greenyellow;
+}
+.form-outline.error input{
+  border-color: red;
+}
+.form-outline .error{
+  color: red;
+  font-size: 10px;
+}
+
+.container .row .form-right #form .btn-sign-up{
+  background: linear-gradient(45deg,#8E2DE2,#4A00E0);
+  color: white;
+  border-radius: 20px;
+}
